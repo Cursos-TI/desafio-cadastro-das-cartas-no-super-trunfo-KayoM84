@@ -1,1 +1,42 @@
+#include <stdio.h>
 
+  int main(){
+      int Cidade;
+      char Nome[25];
+      int Populacao;
+      float Area;
+      int PIB;
+      int NPT;
+
+    //Esse codigo é para a Cidade
+    printf("Insira codigo da Cidade: \n");
+    scanf("%d", &Cidade);
+
+    //Esse codigo é para a Populacao
+    printf("Insira a Populacao: \n");
+    scanf("%d", &Populacao);
+
+    //Esse codigo é para a PIB
+    printf("Insira Codigo da PIB: \n");
+    scanf("%d", &PIB);
+
+    //Esse codigo é para o (NPT) número de pontos turísticos
+    printf("Insira o Numero de Pontos Turisiticos: \n");
+    scanf("%d", &NPT);
+
+    //Esse codigo é para a Area
+    printf("Insira Codigo da Area: \n");
+    scanf("%f", &Area);
+
+    //Esse codigo é para o Nome
+    printf("Insira Nome: \n");
+    scanf("%s", &Nome);
+
+    //Exibir os Resutados
+    printf("\n");
+    printf("Codigo da Cidade: %d\nNome: %s\n", Cidade, Nome);
+    printf("Populacao: %d\nAPIB: %d\n", Populacao, PIB);
+    printf("Numeros de Pontos Turisticos: %d\nArea: %f\n", NPT, Area);
+
+    return 0;
+  }
